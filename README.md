@@ -5,7 +5,7 @@
 (For the persons who don't want to use Al-Azif's Exploit Host, here's the 5.50 website : http://shadixaced.cyanid.me/webkit/ - hosted by Shadix Aced.)
 # Informations for MacOS and Linux.
 
-Use the Host553.py Python file made by @iSn0we.
+Use the Host553.py Python file made by iSn0we.
 
 add ping
 
