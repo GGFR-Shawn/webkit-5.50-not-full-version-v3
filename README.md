@@ -8,11 +8,11 @@
 
 # Changes made : 
 
-## add ping
+add ping
 
-## add loader
+add loader
 
-## add all syscall
+add all syscall
 
 add var instancespr 2048
 
