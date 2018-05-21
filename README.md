@@ -37,4 +37,4 @@ update gadget and malloc code and stackPointer and stkebase and ping
 
 update server for 5.55
 
-s.a - added more ps4 versions + payloads
+added ps4 MiraFW_Orbis payloads 501/505
