@@ -1,38 +1,13 @@
-## Webkit PoC from 5.50 to 5.55 made by Ciss84, added work by ShadixAced and iSn0we.
-# NOTE : Al-Azif Exploit Host now works on 5.53-01 and 5.55 as I've tested it. (17/05/18)
-## Double Note : Al-Azif Exploit Host is often detected as a virus for antiviruses. It's a false positive. To use this program, exclude it using your Antivirus parameters or disable it for the time you need.
-## (For the persons who don't want to use Al-Azif's Exploit Host, here's the 5.50 website : http://shadixaced.cyanid.me/webkit/ - hosted by Shadix Aced.)
+## Unified Al-Azif Exploit Host for PS4 (1.01 - 5.53-01)
 
-# Changes made : 
+# NOTE : Al-Azif Exploit Host now works on 5.53-01, changes needed were made. (12/05/18)
 
-add ping
+## Double note : IT IS NOT AN KEXPLOIT, IT IS ONLY AN EXPLOIT HOST, so the 5.50 to 5.53-01 Webkit exploit made by Ciss84 is REAL, but it is only an WEBKIT exploit ATM.
 
-add loader
+Exploit Host made by Al-Azif, source code here : https://github.com/Al-Azif/ps4-exploit-host
 
-add all syscall
+Thanks to everyone who made webkit exploits and kexploits at the same time (they know themselves, thanks for making this scene alive :) )
 
-add var instancespr 2048
+Older 4.55 payloads are on this release.
 
-add all gadgets
-
-add var thread2
-
-add kchain
-
-add var scratch
-
-add var test = kernel_rop_run(fd1, scratch);
-
-update in rop gadgets 10/05/2018
-
-update readme and index.html
-
-update in rop gadgets 11/05/2018
-
-fix stability and add alasif server
-
-add new code in rops and expl
-
-update gadget and malloc code and stackPointer and stkebase and ping
-
-update server for 5.55
+# To-Do : Need to wait for Specter's full 5.05 Kernel exploit launch to include it in this release.

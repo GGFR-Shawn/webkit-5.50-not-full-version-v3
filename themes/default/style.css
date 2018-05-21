@@ -2,16 +2,18 @@ html {
     height: 100%;
 }
 body {
-    background-image: url('/themes/default/image.jpg');     background-position: center;     background-repeat: no-repeat;
-    background-size: 1555px;
+    background-image: url('/themes/default/image.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 100%;
 }
 #wrapper {
-    width: 90%;
+    width: 100%;
 }
 #contentHeader {
     padding: 20px 40px;
-    background: #ffa500;
+    background: #003263;
     border-top: 1px solid #6392b1;
 }
 #content {
@@ -83,20 +85,20 @@ ul.default li {
 }
 .btn-disabled {
     width: 325px;
-    background-color: #ffff00;
-    color: orange;
+    background-color: #777777;
+    color: white;
     border-radius: 8px;
 }
 .btn-main {
     width: 325px;
-    background-color: #ffff00;
-    color: orange;
+    background-color: #003263;
+    color: white;
     border-radius: 8px;
 }
 .btn-main:hover {
     width: 325px;
-    background-color: #000000;
-    color: orange;
+    background-color: #0058b1;
+    color: white;
     border-radius: 8px;
 }
 /*
@@ -104,7 +106,7 @@ Copyright (c) 2017-2018 Al Azif, https://github.com/Al-Azif/ps4-exploit-host
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
-"Software"), edit ignacioo deal in the Software without restriction, including
+"Software"), to deal in the Software without restriction, including
 without limitation the rights to use, copy, modify, merge, publish,
 distribute, sublicense, and/or sell copies of the Software, and to
 permit persons to whom the Software is furnished to do so, subject to
