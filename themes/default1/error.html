@@ -24,25 +24,23 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <html>
 <head>
 <meta charset="utf-8">
-<title>System Update | PS4 Exploit Host by Al Azif</title>
-<link rel="stylesheet" href="/static/style.css">
+<title>Error %(code)d | PS4 Exploit Host by Al Azif</title>
+<style>
+.fullscreenDiv {
+    text-align: center;
+}
+.error {
+    font-size: xx-large;
+}
+.message {
+    font-size: x-large;
+}
+</style>
 </head>
 <body>
-<div id="wrapper">
-<div id="contentWrapper">
-<div id="contentHeader">
-<h1>PlayStation 4 System Update 4.05</h1>
-</div>
-<div id="content">
-<div id="contentBody">
-<h2>About System Update 4.05</h2>
-<h3>Main features:</h3>
-<ul class="default">
-<li>Improves "system stability"</li>
-</ul>
-</div>
-</div>
-</div>
+<div class="fullscreenDiv">
+<div class="error">Error %(code)d</div>
+<div class="message">%(explain)s</div>
 </div>
 </body>
 </html>
